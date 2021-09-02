@@ -1,0 +1,35 @@
+{
+  "name": "@sportsdataverse/nhl",
+  "version": "0.1.0",
+  "description": "TypeScript module for the NHL API, part of the SportsDataverse.",
+  "author": "Saiem Gilani",
+  "keywords": [
+    "NHL",
+    "hockey",
+    "sportsdataverse",
+    "sports",
+    "axios",
+    "typescript",
+    "openapi-client",
+    "openapi-generator",
+    ""
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --outDir dist/",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.5",
+    "typescript": "^3.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saiemgilani/nhl-ts.git"
+  },
+}
